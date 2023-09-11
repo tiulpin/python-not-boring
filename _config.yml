@@ -131,7 +131,7 @@ feed:           /feed.xml
 # URLs for these fields
 #
 # Default:      https://sparanoid.com
-url: python-not-boring.vercel.app
+url: https://tiulpin.github.io/python-not-boring
 
 # Colors
 #
