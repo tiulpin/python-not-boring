@@ -7,10 +7,10 @@
 # {{ author.web }}: used in atom feed
 # {{ author.twitter }}: used by Twitter Cards
 default:
-  name:         Sparanoid
-  email:        t@sparanoid.com
-  web:          https://sparanoid.com/
-  twitter:      tunghsiao
+  name:         Viktor Tiulpin
+  email:        viktor@tiulp.in
+  web:          https://tiulp.in/
+  twitter:      tiulpin
 
 tester:
   name:         Tester

@@ -1,7 +1,14 @@
 ---
 layout: default
 permalink: /
-thumb_force_logo: true
+scheme-text: "#000000"
+scheme-link: "#3EB2C2"
+scheme-hover: "#3EB2C2"
+scheme-code: "#3EB2C2"
+scheme-bg: "#EEF0F4"
+scheme-hero-text: "#000000"
+scheme-hero-link: "#3EB2C2"
+scheme-hero-bg: "#F2F3F7"
 ---
 
 {%- include amsf/core -%}
@@ -12,40 +19,38 @@ thumb_force_logo: true
   <!-- Post title -->
   <header>
 
-    <h1 class="image-title">
-      Almace Scaffolding
-      <img src="{{ amsf_user_assets }}/svg/amsf.svg">
+    <h1>
+      🐍 Python Not Boring
     </h1>
 
-    <h2 class="sub-title">A super-fast Jekyll framework fighting against the website obesity.</h2>
+    <h2 class="sub-title">Yet Another Python Course.</h2>
 
-    <small>a.k.a. <b>AMSF</b>&#x30FB;ver. <b class="amsf-version">2.0.24</b>&#x30FB;view it on <a href="https://github.com/sparanoid/almace-scaffolding">GitHub</a></small>
+    <small>ver. <b class="amsf-version">2021.2</b>&#x30FB;by <a href="https://github.com/tiulpin">@tiulpin</a>
+    </small>
+    <small>
+      Python is an interpreted, high-level, and universal programming language. It’s design philosophy emphasizes code readability and ease of implementation.
+    </small>
+    <small>
+      According to the study The State of the Octoverse in 2020 Python overtook Java in popularity and came in second place in the top most used programming languages on GitHub.
+    </small>
+    <small>
+      Python is used in products by companies such as:
+    </small>
+    <small><ul>
+      <li>Google</li>
+      <li>Facebook</li>
+      <li>Spotify</li>
+      <li>JetBrains</li>
+    </ul></small>
+    <small>
+      They say that Python can **only** be used as a tool for writing small scripts, prototyping machine learning models, and creating autotests. However, <a href="https://www.jetbrains.com/lp/python-developers-survey-2020/">this is not true</a>, and the goal of the course is to show how Python is applied to a wide range of tasks in development - and it’s not necessarily something related to ML or testing.</small>
+    <small>This is the second version of the course, the last time it was done in 2021.</small>
   </header>
 
   <div class="page-content">
     <h2>Getting Started</h2>
     {% for post in site.tags.getting-started %}
-      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
-    {% endfor %}
-
-    <h2>Customization</h2>
-    {% for post in site.tags.customization %}
-      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
-    {% endfor %}
-
-    <h2>Theme Curtana</h2>
-    {% for post in site.tags.curtana %}
-      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
-    {% endfor %}
-
-    <h2>Deployment</h2>
-    {% for post in site.tags.deployment %}
-      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
-    {% endfor %}
-
-    <h2>Miscellaneous</h2>
-    {% for post in site.tags.miscellaneous %}
-      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
+    {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
     {% endfor %}
   </div>
 </article>
